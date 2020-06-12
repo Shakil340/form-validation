@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="full">
+    <div class="container">
+      <h2>fonrm validation</h2>
+      <form action="#" id="signupForm">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="">Firs Name</label>
+            <input class="form-control" type="text" name="" required="">
+          </div>
+          <div class="col-md-6">
+            <label for="">last Name</label>
+            <input class="form-control" type="text" name="lastname">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="">Type Your number</label>
+            <input class="form-control" type="tel" name="number">
+          </div>
+          <div class="col-md-6">
+            <label for="">Time</label>
+            <input class="form-control" type="time" name="time">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <label for="">Type Your email</label>
+            <input class="form-control" type="email" name="email">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="">Type Your password</label>
+            <input class="form-control" type="password" name="password" id="password">
+          </div>
+          <div class="col-md-6">
+            <label for="">Type Your Conform Password</label>
+            <input class="form-control" type="password" name="confirm_password">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <label for="">Message</label>
+            <textarea name="Message" id="" cols="30" rows="10" class="form-control"></textarea>
+          </div>
+        </div>
+        <fieldset>
+          <legend>Gender</legend>
+          <input type="radio" name="gender" id="" value="male">Male
+          <input type="radio" name="gender" id="" value="female">FeMale
+          <label for="gender" class="error d-block"></label>
+        </fieldset>
+        <input type="checkbox" name="check" id=""><span>I agree </span> 
+        <label for="check" class="error d-block"></label>
+        <input type="submit" value="submit" class="btn btn-primary">
+        <input type="reset" value="reset" class="btn btn-danger">
+      </form>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/jquery.validate.js"></script> -->
+  <script src="js/main.js"></script>
+</html>
